@@ -31,7 +31,9 @@
 
         e.preventDefault();
 
-        this.focusedIdx--;
+        if (this.focusedIdx != 0) {
+            this.focusedIdx--;
+        }
 
         break;
 
@@ -42,7 +44,9 @@
 
         e.preventDefault();
 
-        this.focusedIdx++;
+        if (this.focusedIdx != this.buttons.length - 1) {
+            this.focusedIdx++;
+        }
 
         break;
       }
