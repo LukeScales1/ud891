@@ -31,7 +31,7 @@
 
         e.preventDefault();
 
-        // This seems like a good place to do some stuff :)
+        this.focusedIdx--;
 
         break;
 
@@ -42,7 +42,7 @@
 
         e.preventDefault();
 
-        // This seems like a good place to do some stuff :)
+        this.focusedIdx++;
 
         break;
       }
